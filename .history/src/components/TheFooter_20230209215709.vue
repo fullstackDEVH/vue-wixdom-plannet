@@ -1,0 +1,29 @@
+<template>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top"></div>
+      <div class="footer__bottom">
+        <span class="footer__copyright"
+          >Copyright © 2022 Open Lab. All rights reserved</span
+        >
+      </div>
+    </div>
+  </footer>
+</template>
+<style scoped>
+.footer {
+  border-top: var(--border);
+}
+.footer__top {
+  padding-top: 80px;
+  padding-bottom: 48px;
+}
+.footer__bottom {
+  border-top: var(--border);
+  padding: 32px 0;
+}
+.footer__copyright{ 
+  color: #636366;
+  font-size: 1.2rem;
+}
+</style>

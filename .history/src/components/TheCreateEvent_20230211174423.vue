@@ -1,0 +1,27 @@
+<template>
+  <div class="the-create-event">
+    <div class="the-container">
+      <div class="create-event__top">
+        <h2 class="the-heading--center">Create a new Events</h2>
+        <div>
+          <TheStep />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+<script lang="ts">
+import TheStep from "./TheStep.vue";
+export default {
+  components: {
+    TheStep,
+  },
+};
+</script>
+<style scoped>
+.create-event__top {
+  margin-bottom: 36px;
+}
+</style>

@@ -1,0 +1,1 @@
+import CommunityView from "../views/community/CommunityView.vue"
